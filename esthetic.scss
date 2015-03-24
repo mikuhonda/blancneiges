@@ -1,0 +1,143 @@
+/*　　　　　　　　　　　　　　　　　　　　　====== main_title*/
+.main_title_area {
+	height: 260px;
+	background: url(../images/about/a_header.png)no-repeat;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	margin-top: -90px;
+}
+.main_title_area .main_title_text_area {
+	width: 100%;
+	position: absolute;
+	height: 80px;
+	margin-top: 100px;
+	background-color: rgba(255,252,253,0.7);
+}
+.main_title_area .main_title_text_area img {
+	padding: 10px 0;
+	margin-top: 10px;
+}
+/*　　　　　　　　　　　　　　　　　　     facial*/
+.esthetic_facial_area {
+	text-align: center;
+}
+img.bright { 
+	display: inline-block;
+	margin-right: 5px;
+}
+img.essence {
+	display: inline-block;
+	margin-left: 5px;
+}
+.e_f_text_area {
+	width: 800px;
+	text-align: left;
+	margin: 0 auto
+}
+.esthetic_facial_area h1{
+	text-align: center;
+	padding-top: 20px;
+ img {
+	padding: 30px; 
+	background: url(../images/index/circle.png)no-repeat;
+}
+}
+/*　　　　　　　　　　　　　　　　　     　eyerash*/
+.esthetic_eyerash_area {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 50px;
+	overflow: hidden;
+	margin-bottom: 60px;
+	.e_r_image_area {
+	float: left;
+	margin-left: 8%;
+}
+}
+.esthetic_eyerash_area .e_r_text_area {
+	width: 500px;
+	float: right;
+	margin-right: 8%;
+	padding-top: 10px;
+}
+
+.e_r_title_area h1{
+	text-align: center;
+	padding-top: 20px;
+ img {
+	padding: 30px; 
+	background: url(../images/index/circle.png)no-repeat;
+}
+}
+/*　　　　　　　　　　　　     　　　　　　facialprice*/
+.facial_price_area {
+	background-color: #fff;
+	padding: 30px 0 40px; 
+	margin-top: 40px;
+	p {
+		width: 960px;
+		text-align: right;
+		font-size: 14px;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+}
+
+.facial_price_area table,
+.eyerash_price_area table,
+.eyerash_remove_price_area table {
+		width: 960px;
+		margin: 0 auto;
+	td {
+		border-bottom: dotted 2px #f99eae;
+		padding: 20px 0; 
+		font-size: 23px;
+		text-align: center;
+		color: #f99eae;
+		letter-spacing: 0.07em;
+	}
+	td span {
+		font-size: 20px;
+	}
+}
+.price_title td,
+.facial_price_area table td:first-child,
+.eyerash_remove_price_area table td:first-child,
+.eyerash_price_area table td:first-child
+ {
+	color: #88787a!important;
+}
+/*　　　　　　　　　　　　　　　　　　　　eyerash_price*/
+.eyerash_price_area,
+.eyerash_remove_price_area {
+	background-color: #fff;
+	padding: 30px 0 40px; 
+	margin-top: 40px;
+}
+.eyerash_remove_price_area {
+	margin-top: -20px;
+	padding-bottom: 60px;
+}
+.eyerash_remove_price_area table tr.price_title td:nth-child(2) {
+	font-size: 18px;
+}
+
+td.none_spacing {
+	letter-spacing: 0!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

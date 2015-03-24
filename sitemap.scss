@@ -1,0 +1,61 @@
+body {
+	background: #fff!important;
+}
+/*　　　　　　　　　　　　　　　　　　　　　====== main_title*/
+.main_title_area {
+	height: 260px;
+	background: url(../images/header.png)no-repeat;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	margin-top: -90px;
+}
+.main_title_area .main_title_text_area {
+	width: 100%;
+	position: absolute;
+	height: 80px;
+	margin-top: 100px;
+	background-color: rgba(255,252,253,0.7);
+}
+.main_title_area .main_title_text_area img {
+	padding: 10px 0;
+	margin-top: 10px;
+}
+/*　　　　　　　　　　　　　　　　　　　　　　    sitemap*/
+.sitemap_area {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.sitemap_area {
+	h2 {
+	font-size: 18px;
+}
+	li {
+	list-style: none;
+	}
+}
+
+.s_campaign_area,
+.s_about_area,
+.s_silky_area,
+.s_esthetic_area,
+.s_faqs_area,
+.s_shops_area,
+.s_company_area,
+.s_privacy_area {
+	margin-bottom: 60px;
+	h2{
+		margin: 0;
+		border-bottom: solid 1px;
+		margin-bottom: 10px;
+		padding-left: 10px;
+		
+
+	}
+	li {
+	font-size: 14px;
+  padding-left: 30px;
+  margin-top: 5px;
+	}
+}
