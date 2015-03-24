@@ -1,1 +1,0 @@
-$(function(){var t=$(location).attr("href");if(-1==t.indexOf("?id="));else{var i=t.split("?id="),e="#"+i[i.length-1],o=$(e),l=o.offset().top;$("html, body").animate({scrollTop:l},2e3,"swing")}});

@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".bxslider").bxSlider({auto:!0,speed:1e3,pause:4500,mode:"horizontal",pager:!0,controls:!0})});
