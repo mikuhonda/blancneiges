@@ -1,0 +1,64 @@
+/*　　　　　　　　　　　　　　　　　　　　　====== main_title*/
+.main_title_area {
+	height: 260px;
+	background: url(../images/faqs/faqs_header.png)no-repeat;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	margin-top: -90px;
+}
+.main_title_area .main_title_text_area {
+	width: 100%;
+	position: absolute;
+	height: 80px;
+	margin-top: 100px;
+	background-color: rgba(255,252,253,0.7);
+}
+.main_title_area .main_title_text_area img {
+	padding: 10px 0;
+	margin-top: 10px;
+}
+/*　　　　　　　　　　　　　　　　　　　　　====== silky*/
+.faqs_silky_area,
+.faqs_esthetic_area,
+.faqs_price_area {
+	margin: 0 auto;
+	margin-bottom: 60px;
+	width: 800px;
+	padding: 40px; 
+	ul li {
+		list-style: none;
+	}
+}
+
+.faqs_silky_area {
+	background: url(../images/faqs/f_silky_bg.png)no-repeat;
+}
+.faqs_esthetic_area {
+	background: url(../images/faqs/f_esthetic_bg.png)no-repeat;
+}
+.faqs_price_area {
+	background: url(../images/faqs/f_price_bg.png)no-repeat;
+}
+.faqs_silky_area h1,
+.faqs_esthetic_area h1,
+.faqs_price_area h1 {
+		text-align: center;
+		img {
+			padding: 20px;
+			background: url(../images/index/circle.png)no-repeat;
+		}
+	}
+.faqs_silky_area ul li:first-child,
+.faqs_esthetic_area ul li:first-child,
+.faqs_price_area ul li:first-child {
+	border-top: solid 2px #f99eae;
+	border-bottom: solid 2px #f99eae;
+	padding: 5px 0;
+	margin-top: 20px;
+}
+.faqs_silky_area ul li:last-child,
+.faqs_esthetic_area ul li:last-child,
+.faqs_price_area ul li:last-child {
+	padding: 10px 0;
+}
