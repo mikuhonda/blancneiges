@@ -30,13 +30,19 @@
     background: url(../images/index/circle.png) no-repeat; }
 
 .s_a_p_title_area h1 {
-  margin-top: 20px; }
+  margin-top: 60px; }
 
 /*　　　　　　　　　　　　     　　　　　　silky_skin_price*/
 .silky_price_area,
 .silky_all_plan_area {
   background-color: #fff;
   padding: 30px 0 40px; }
+
+.s_p_image_area {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 20px 0; }
 
 .silky_price_area table,
 .silky_all_plan_area table {
