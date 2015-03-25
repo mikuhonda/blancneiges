@@ -40,7 +40,22 @@ height: 65px;
 		}
 	}
 }
-
+.h_time {
+	display: inline-block;
+  margin-left: 30px;
+  vertical-align: top;
+  margin-top: 20px;
+  p {
+ 	 line-height: 1.5em;
+ 	 font-size: 10px;
+  }
+}
+p.time_title {
+	font-weight: bold;
+	padding: 2px 0px;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
 .h_inquiry_area {
 	float: right;
 	margin-right: 20px;
@@ -51,7 +66,7 @@ position: relative;
 width: 212px;
 height: 30px;
 background: #f99eae;
-padding: 5px 10px;
+padding: 14px 30px;
 border-radius: 6px;
 border-bottom: solid 10px #fa6b86;
 margin-top: 20px;
