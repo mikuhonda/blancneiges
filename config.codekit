@@ -41,6 +41,22 @@
 		"outputStyle": 1,
 		"railsCompatible": 0
 		},
+	"\/campaign.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/campaign.scss",
+		"outputAbbreviatedPath": "\/css\/campaign.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/campaign\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -124,6 +140,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/about.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/campaign.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/campaign.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -519,6 +544,39 @@
 		"initialSize": 2806,
 		"inputAbbreviatedPath": "\/images\/bx\/controls.png",
 		"outputAbbreviatedPath": "\/images\/bx\/controls.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/campaign\/c_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21835,
+		"inputAbbreviatedPath": "\/images\/campaign\/c_title.png",
+		"outputAbbreviatedPath": "\/images\/campaign\/c_title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/campaign\/cam01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180287,
+		"inputAbbreviatedPath": "\/images\/campaign\/cam01.png",
+		"outputAbbreviatedPath": "\/images\/campaign\/cam01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/campaign\/cam02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 259822,
+		"inputAbbreviatedPath": "\/images\/campaign\/cam02.png",
+		"outputAbbreviatedPath": "\/images\/campaign\/cam02.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

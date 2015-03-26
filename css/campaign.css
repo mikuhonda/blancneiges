@@ -19,6 +19,7 @@
   padding: 10px 0;
   margin-top: 10px; }
 
+/*　　　　　　　　　　　　　　　　　　　　　　campaign*/
 .cam_one_text_area {
   width: 350px;
   display: inline-block;
@@ -32,32 +33,84 @@
   font-size: 14px;
   font-weight: bold; }
 
-.cam_three_area {
+.cam_three_area,
+.cam_one_area,
+.cam_two_area {
   text-align: center;
   width: 100%;
   background: #fff;
-  padding: 40px 0; }
+  padding: 60px 0; }
+
+.cam_two_area {
+  background: none; }
 
 .cam_three_image_area,
-.cam_three_text_area {
+.cam_three_text_area,
+.cam_one_text_area,
+.cam_one_image_area,
+.cam_two_text_area,
+.cam_two_image_area {
   display: inline-block; }
 
-.cam_three_image_area img {
-  width: 200px; }
+.cam_three_image_area img,
+.cam_two_image_area img,
+.cam_one_image_area img {
+  width: 250px;
+  border: solid 1px #f1f1f1; }
 
-.cam_three_text_area {
-  width: 35%;
+.cam_three_text_area,
+.cam_one_text_area,
+.cam_two_text_area {
+  width: 500px;
   vertical-align: top;
   margin-top: 10px;
   margin-left: 20px; }
-  .cam_three_text_area h1 {
+  .cam_three_text_area h1,
+  .cam_one_text_area h1,
+  .cam_two_text_area h1 {
     font-size: 18px;
     text-align: left;
-    margin-bottom: 30px; }
-  .cam_three_text_area h2, .cam_three_text_area p {
+    margin-bottom: 30px;
+    border-bottom: solid 1px;
+    padding-bottom: 5px; }
+  .cam_three_text_area h2, .cam_three_text_area p,
+  .cam_one_text_area h2,
+  .cam_one_text_area p,
+  .cam_two_text_area h2,
+  .cam_two_text_area p {
     font-size: 14px;
     text-align: left; }
-  .cam_three_text_area a {
+  .cam_three_text_area a,
+  .cam_one_text_area a,
+  .cam_two_text_area a {
     font-size: 14px;
     font-weight: bold;
+    text-align: left; }
+
+/*　　　　　　　　　　　　　　　　　campaign1_content*/
+.cam_one_content {
+  width: 960px;
+  margin: 0 auto; }
+
+.cam_one_content_first,
+.cam_one_content_second,
+.cam_one_content_third {
+  width: 210px;
+  height: 200px;
+  border: solid 3px #f99eae;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px 20px 0px 20px; }
+  .cam_one_content_first h3,
+  .cam_one_content_second h3,
+  .cam_one_content_third h3 {
+    font-size: 16px;
+    text-align: center; }
+  .cam_one_content_first p,
+  .cam_one_content_second p,
+  .cam_one_content_third p {
+    font-size: 12px;
     text-align: left; }
