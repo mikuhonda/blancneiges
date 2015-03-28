@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+■ブラウザ CSSリセット
+-------------------------------------------------------------*/
+body,h1,h2,h3,h4,h5,h6,p,address,ul,ol,li,dl,dt,dd,table,caption,th,td,img{
+	font-style:normal;
+	font-weight:400;
+	font-size:100%;
+	text-align:left;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+textarea {
+	font-size:100%;
+}
+img{
+	vertical-align:bottom;
+	border: 0;
+}
+
+/*------------------------------------------------------------
+■ベースの設定
+-------------------------------------------------------------*/
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	font-family: Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	font-size:14px;
+}
+a		{text-decoration:none}
+a:hover	{text-decoration:underline}
+.clear{clear:both}
+a:hover img{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+}
+blockquote{clear:both;margin:1em; padding:8px; background:#fff7d7;font-size:92%;border:1px solid #ffea98;}
+.small{font-size: 80%}
+/*------------------------------------------------------------
+Designed by DesignPlus CO.,LTD. All Rights Reserved.
+-------------------------------------------------------------*/

@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+img.centered {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     }
+img.alignright {
+     padding:4px;
+     margin:0 0 2px 7px;
+     display:inline;
+     }
+img.alignleft {
+     padding:4px;
+     margin:0 7px 2px 0;
+     display:inline;
+     }
+.alignright{float:right;}
+.alignleft{float:left}
+hr {
+	background-color:#e7e7e7;
+	border:0;
+	clear:both;
+	height:1px;
+	margin-bottom:18px;
+}
+ol{
+	list-style:decimal;
+	margin:0 0 18px 1.5em;
+}
+ol ol{list-style:upper-alpha;}
+ol ol ol{list-style:lower-roman;}
+ol ol ol ol{list-style:lower-alpha;}
+strong{font-weight:700;}
+cite,em,i{border:0;}
+big{font-size:130%;}
+ins{
+	background:#ffc;
+	border:0;
+	color:#333;
+}
+del{
+	text-decoration:line-through;
+	color:#555;
+}
+pre{
+	background:#f7f7f7;
+	color:#222;
+	line-height:18px;
+	margin-bottom:18px;
+	padding:1.5em;
+}
+abbr,acronym{
+	border-bottom:1px dotted #666;
+	cursor:help;
+}
+ins{text-decoration: none;}
+sup,sub{
+	font-size:10px;
+	height:0;
+	line-height:1;
+	position:relative;
+	vertical-align:baseline;
+}
+sup{bottom:1ex;}
+sub{top:.5ex;}
+pre,kbd,tt,var{line-height:21px;}
+img.size-auto,img.size-large,img.size-full,img.size-medium
+	max-width:100%;
+	height:auto;
+}
+.wp-caption{
+	background:#f1f1f1;
+	border:0;
+	-khtml-border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+	color:#888;
+	font-size:12px;
+	line-height:18px;
+	margin-bottom:20px;
+	max-width:632px !important;
+	padding:4px;
+	text-align:center;
+}
+.wp-caption img{margin:5px;}
+.wp-caption p.wp-caption-text{margin:0 0 4px;}
+.wp-smiley{margin:0;}
+
+/*------------------------------------------------------------
+■ウィジェット「カレンダー」
+-------------------------------------------------------------*/
+#wp-calendar{width:100%}
+#wp-calendar caption{
+	color:#222;
+	font-size:14px;
+	font-weight:700;
+	padding-bottom:4px;
+	text-align:left;
+}
+#wp-calendar thead{font-size:11px; width:100%;}
+#wp-calendar tbody{color:#aaa;}
+#wp-calendar tbody td{
+	background:#f5f5f5;
+	border:1px solid #fff;
+	padding:3px 0 2px;
+	text-align:center;
+}
+#wp-calendar tbody .pad{background:none;}
+#wp-calendar tfoot #next{text-align:right;}
+
+/*------------------------------------------------------------
+Designed by DesignPlus CO.,LTD. All Rights Reserved.
+-------------------------------------------------------------*/
