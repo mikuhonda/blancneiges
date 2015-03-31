@@ -375,7 +375,27 @@ img{
 }
 .i_voice_area {
 	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.i_voice_area_two {
+	width: 960px;
 	margin: 0 auto; 
+}
+.voice_image_area_two{
+	float: right;
+img{
+	width: 70%;
+  height: 70%;
+}
+}
+.voice_comment_area_two {
+	float: right;
+	p {
+		width: 600px;
+		text-align: left;
+		margin-top: 20px;
+	}
 }
 /*                                     ---faqs*/
 section.faqs {
