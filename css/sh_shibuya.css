@@ -75,4 +75,57 @@ table.nanba_info tr td:first-child {
 
 /*　　　　　　　　　　　　　　　　　　　　　====== map*/
 .map_nanba_area {
-  margin-top: 60px; }
+  margin-top: 60px;
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+iframe {
+  clear: both; }
+
+.how_to_go_image_area p {
+  margin-bottom: 40px !important; }
+
+.how_to_go_image_area .htg_image_one,
+.how_to_go_image_area .htg_image_two,
+.how_to_go_image_area .htg_image_three,
+.how_to_go_image_area .htg_image_four,
+.how_to_go_image_area .htg_image_five,
+.how_to_go_image_area .htg_image_six {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto; }
+
+.how_to_go_image_area .htg_image_one {
+  background: url(../images/shops/shibuya/how_to_one.jpg) no-repeat;
+  background-size: cover;
+  display: inline-block; }
+
+.how_to_go_image_area .htg_image_two {
+  background: url(../images/shops/shibuya/how_to_two.jpg) no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px; }
+
+.how_to_go_image_area .htg_image_three {
+  background: url(../images/shops/shibuya/how_to_four.jpg) no-repeat;
+  background-size: cover;
+  background-position-y: -140px;
+  display: inline-block; }
+
+.how_to_go_image_area .htg_image_four {
+  background: url(../images/shops/shibuya/how_to_six.jpg) no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px; }
+
+.how_to_go_image_area .htg_image_five {
+  background: url(../images/shops/shibuya/how_to_seven.jpg) no-repeat;
+  background-size: cover;
+  display: inline-block; }
+
+.how_to_go_image_area .htg_image_six {
+  background: url(../images/shops/shibuya/how_to_eight.jpg) no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px; }
