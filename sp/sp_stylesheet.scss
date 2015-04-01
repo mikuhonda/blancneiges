@@ -25,3 +25,45 @@
 	margin: 0 auto;
   background-position: 50% 50%;
 }
+
+/*　　　　　　　　　　　　　　　　　　　　　　news*/
+.news {
+	margin-top: 20px;
+	padding: 4% 12%;
+	height: 150px;
+	width: 100%;
+	background-color: #fffcfd;
+}
+
+.about {
+	text-align: center;
+	margin-top: 20px;
+	img {
+		width:90%;
+		margin-bottom: 10px;
+	}
+}
+/*　　　　　　　　　　　　　　　　　　　　　　　about*/
+#pulldown_menu div {
+  position: relative;
+}
+
+#pulldown_menu div span {
+  cursor: pointer;
+}
+
+#pulldown_menu div ul {
+  position: absolute;
+  background: #fff;
+  z-index: 9999;
+  padding: 7%;
+  margin-top: -20px;
+  width: 76%;
+  margin-left: 5%;
+  text-align: left;
+  color: #796660;
+  li{
+  	list-style: none;
+  	margin-left: -10px;
+  }
+}

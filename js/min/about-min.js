@@ -1,0 +1,1 @@
+$(function(){$("span").click(function(){"selected"==$(this).attr("class")?$(this).removeClass("selected").next("ul").slideUp("fast"):($("span").removeClass("selected"),$("ul").hide(),$(this).addClass("selected").next("ul").slideDown("fast"))}),$("body").click(function(){0==over_flg&&($("span").removeClass("selected"),$("ul").slideUp("fast"))})});
