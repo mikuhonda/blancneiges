@@ -5,6 +5,9 @@ body, html {
   overflow-x: hidden;
   overflow-y: auto; }
 
+body {
+  background: url(../images/body_bg.png); }
+
 header {
   height: 60px;
   background-color: #fff;
@@ -290,9 +293,3 @@ li.menu-nav__item--active {
     margin: 3% 37%;
     width: 75%;
     transform: rotate(45deg); } }
-/*　　　　　　　　　　　　　　　　main*/
-.main_image_area {
-  width: 100%;
-  height: 310px;
-  background: url(../images/sp/index/main.png) no-repeat;
-  background-size: cover; }
