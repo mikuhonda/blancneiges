@@ -5,6 +5,9 @@
 	background: url(../images/sp/index/main.png)no-repeat;
 	background-size: contain;
 }
+section.main {
+	  margin-top: 60px;
+}
 /*　　　　　　　　　　　　　　　　campaign*/
 .campaign_image_area {
 	width: 100%;
@@ -38,6 +41,7 @@
 .about {
 	text-align: center;
 	margin-top: 20px;
+	display: none;
 	img {
 		width:90%;
 		margin-bottom: 10px;
@@ -66,4 +70,47 @@
   	list-style: none;
   	margin-left: -10px;
   }
+}
+/*　　　　　　　　　　　　　　　　　　　content*/
+section.silky,
+section.esthetic,
+section.faqs,
+section.shops,
+section.support {
+	h2 {
+		background-color: #ecdefa;
+		width: 100%;
+		font-size: 18px;
+		color: #fff;
+		padding: 20px;
+	}
+	li {
+		background-color: #fff;
+		color: #796660;
+		font-size: 18px;
+		padding: 20px;
+		border-bottom: solid 1px #fafafa;
+	}
+}
+section.silky,
+section.esthetic,
+section.faqs,
+section.shops,
+section.support {
+	li:last-child {
+	border: none;
+	}
+}
+section.silky,
+section.esthetic,
+section.faqs,
+section.shops,
+section.support {
+	img {
+		width: 30px;
+  	height: 30px;
+  	vertical-align: middle;
+  float: right;
+  margin-right: 10%;
+	}
 }

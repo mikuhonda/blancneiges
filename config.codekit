@@ -13352,6 +13352,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/sp_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/sp_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/stylesheet.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -14826,6 +14835,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/sp\/index\/main.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 269423,
+		"inputAbbreviatedPath": "\/images\/sp\/index\/main.png",
+		"outputAbbreviatedPath": "\/images\/sp\/index\/main.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/sp\/index\/news.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -14937,6 +14957,17 @@
 		"outputStyle": 1,
 		"railsCompatible": 0
 		},
+	"\/js\/about.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/about.js",
+		"outputAbbreviatedPath": "\/js\/min\/about-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/jquery-2.1.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14959,12 +14990,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/min\/page_scroll-min.js": {
+	"\/js\/min\/about-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/page_scroll-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/page_scroll-min-min.js",
+		"inputAbbreviatedPath": "\/js\/min\/about-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/about-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/wp_latest-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/wp_latest-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/wp_latest-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -15020,6 +15062,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/slick.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/slick.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/wp_latest.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/wp_latest.js",
+		"outputAbbreviatedPath": "\/js\/min\/wp_latest-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -15403,6 +15456,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sp\/sp_common.scss",
 		"outputAbbreviatedPath": "\/css\/sp_common.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sp\/sp_stylesheet.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sp\/sp_stylesheet.scss",
+		"outputAbbreviatedPath": "\/css\/sp_stylesheet.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

@@ -5,13 +5,25 @@ body, html {
   overflow-x: hidden;
   overflow-y: auto; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
 body {
   background: url(../images/body_bg.png); }
 
+h2 {
+  margin: 0; }
+
 header {
+  width: 100%;
   height: 60px;
   background-color: #fff;
-  box-shadow: 5px 5px 20px rgba(181, 181, 181, 0.4); }
+  box-shadow: 5px 5px 20px rgba(181, 181, 181, 0.4);
+  position: fixed; }
 
 .h_logo_area {
   float: left;
@@ -27,15 +39,19 @@ header {
   .h_contact_area .h_tel_area {
     display: inline-block;
     vertical-align: top;
-    margin-top: 10px; }
+    margin-top: 10px;
+    width: 55%; }
     .h_contact_area .h_tel_area img {
+      width: 30%;
       margin-left: 10px;
       border-right: solid 1px #f5f5f5;
       padding-right: 10px; }
 
 .h_form_area {
-  display: inline-block; }
+  display: inline-block;
+  width: 10%; }
   .h_form_area img {
+    width: 150%;
     margin-top: 10px;
     margin-left: 6px;
     border-right: solid 1px #f5f5f5;
@@ -121,8 +137,8 @@ li.menu-nav__item--active {
   position: absolute;
   top: 0.2em;
   right: 0;
-  width: 65px;
-  height: 65px; }
+  width: 15%;
+  height: 10%; }
 
 #ie8 .navBtn, #ie7 .navBtn, #ie6 .navBtn {
   top: 30px; }
@@ -141,16 +157,16 @@ li.menu-nav__item--active {
   background: none;
   outline: 0;
   -webkit-tap-highlight-color: transparent;
-  margin-top: -0.9em;
+  margin-top: -0.2em;
   padding-left: 0.7em; }
 
 .navIcon {
   overflow: hidden;
   padding: 1.5rem 0rem;
   cursor: pointer;
-  -webkit-transform: scale(0.5);
-  -moz-transform: scale(0.5);
-  transform: scale(0.5); }
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4); }
 
 .iconLayer {
   position: relative;
