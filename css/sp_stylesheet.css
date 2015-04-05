@@ -111,3 +111,13 @@ section.support img {
   vertical-align: middle;
   float: right;
   margin-right: 10%; }
+
+img.facebook {
+  display: block;
+  width: 320px !important;
+  height: auto !important;
+  float: none !important;
+  clear: both !important;
+  margin: 0 auto !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important; }

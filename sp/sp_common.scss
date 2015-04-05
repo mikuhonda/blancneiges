@@ -347,4 +347,20 @@ transform: rotate(45deg)
 }
 }
 
+footer {
+  background-color: #ecdefa;
+  width: 100%;
+  padding-bottom: 20px;
+  img.copyright_image{
+    display: block;
+    width:320px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  img.page_top_ribbon {
+    display: block;
+    margin: 0 auto;
+  }
+}
 
