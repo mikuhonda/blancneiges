@@ -62,6 +62,32 @@ html lang="ja"
 					a href="https://www.itsuaki.com/yoyaku/webreserve/storesel?client=blancneige-salon"
 			section.news
 				img src="../images/sp/index/news.png" alt="news"
+				<div class="ajax"></div>
+				javascript:
+				    $.ajax({
+				        type: 'GET',
+				        url: 'blog/wp-json/posts',
+				        dataType: 'json'
+				    }).done(function(json){
+				            var len = json.length;
+				            for(var i=0; i < len; i++){
+				              var title = json[i].title;
+				              var link = json[i].link;
+				              var category = '';
+				 
+				              for (var j = json[i].terms.category.length - 1; j >= 0; j--) {
+				                  category += json[i].terms.category[j].name;
+				              };
+				              var pubDD = new Date(json[i].date);
+				              yy = pubDD.getYear();if (yy < 2000) { yy += 1900; }
+				              mm = pubDD.getMonth() + 1;dd = pubDD.getDate();
+				              var pubDate = yy +'年'+ mm +'月'+ dd +'日';
+				              var html = '<li><a href="' + link + '" target="_blank">'+ title +'</a> - ' + category + '（' + pubDate + '）</li>';
+				              $('.ajax').append(html);
+				            }
+				    }).fail(function(json){
+				            $('.ajax').append("読み込みませんでした。");
+				    });
 			section.about
 				#pulldown_menu
 					div
@@ -117,29 +143,29 @@ html lang="ja"
 					| 脱毛プラン・料金
 				ul
 					li
-						| 都度払いプラン
+						| <a href="http://www.blancneige-salon.com/sp/faqs?id=about">都度払いプラン
 						span
-							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="都度払いプラン">
+							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="都度払いプラン"></a>
 					li
-						| 1年6回・2年12回プラン
+						| <a href="http://www.blancneige-salon.com/sp/faqs?id=about">1年6回・2年12回プラン
 						span
-							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="1年6回・2年12回プラン">
+							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="1年6回・2年12回プラン"></a>
 					li
-						| 都度払いプラン
+						| <a href="http://www.blancneige-salon.com/sp/faqs?id=about">都度払いプラン
 						span
-							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="都度払いプラン">
+							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="都度払いプラン"></a>
 			section.esthetic
 				h2
 					| エステメニュー・料金
 				ul
 					li
-						| フェイシャルエステ
+						| <a href="http://www.blancneige-salon.com/sp/faqs?id=about">フェイシャルエステ
 						span
-							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="フェイシャルエステ">
+							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="フェイシャルエステ"></a>
 					li
-						| まつげエクステ
+						| <a href="http://www.blancneige-salon.com/sp/faqs?id=about">まつげエクステ
 						span
-							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="まつげエクステ">
+							| <img src="../images/sp/index/arrow.png" height="49" width="49" alt="まつげエクステ"></a>
 					
 
 			section.faqs
