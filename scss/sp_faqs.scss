@@ -38,3 +38,17 @@ section#faqs_price {
 		margin-bottom: -6px;
 	}
 }
+
+section#faqs_silky,
+section#faqs_esthetic,
+section#faqs_price {
+	ul {
+		background-color: #fff;
+		padding: 20px 20px 40px 20px;
+		color: #796660;
+	}
+	ul li:first-child {
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+}

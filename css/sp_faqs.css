@@ -31,3 +31,15 @@ section#faqs_price img {
   width: 100%;
   height: auto;
   margin-bottom: -6px; }
+
+section#faqs_silky ul,
+section#faqs_esthetic ul,
+section#faqs_price ul {
+  background-color: #fff;
+  padding: 20px 20px 40px 20px;
+  color: #796660; }
+section#faqs_silky ul li:first-child,
+section#faqs_esthetic ul li:first-child,
+section#faqs_price ul li:first-child {
+  margin-bottom: 10px;
+  font-weight: bold; }
