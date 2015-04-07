@@ -1,0 +1,43 @@
+section.silky_area {
+  margin-top: 60px; }
+  section.silky_area h1 {
+    background-color: #ecdefa;
+    padding: 20px 20px 14px;
+    margin: 0; }
+  section.silky_area img {
+    width: 100%;
+    height: auto; }
+
+.parts {
+  padding: 20px;
+  background: #fff; }
+
+.silky_price_area p {
+  text-align: right;
+  font-size: 10px;
+  margin: 0 auto;
+  padding-top: 10px; }
+
+.silky_price_area,
+.silky_all_plan_area {
+  background-color: #fff;
+  padding: 15px 0 20px; }
+
+.silky_price_area table {
+  width: 100%;
+  margin: 0 auto; }
+  .silky_price_area table td {
+    border-bottom: dotted 2px #f99eae;
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #f99eae;
+    letter-spacing: 0.07em; }
+  .silky_price_area table td span {
+    font-size: 10px; }
+
+tr.price_title td,
+.silky_price_area table td:first-child,
+.silky_price_all_area table td:first-child {
+  color: #88787a !important;
+  padding-left: 10px; }
