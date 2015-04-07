@@ -1,0 +1,40 @@
+section.faqs {
+	margin-top: 60px;
+	h1 {
+		background-color: #ecdefa;
+		padding: 20px 20px 14px;
+		margin: 0;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+section#faqs_silky,
+section#faqs_esthetic,
+section#faqs_price,
+section.faqs {
+p {
+		margin: 0;
+		padding: 20px;
+		color: #796660;
+		background-color: #fff;
+	}
+}
+section#faqs_silky,
+section#faqs_esthetic,
+section#faqs_price {
+	h2 {
+		background-color: #ecdefa;
+		padding: 20px 20px 14px;
+		margin: 0;
+		color: #fff;
+		font-size: 18px;
+	}
+	img {
+		width: 100%;
+		height: auto;
+		margin-bottom: -6px;
+	}
+}

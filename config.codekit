@@ -13352,6 +13352,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/sp_esthetic.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/sp_esthetic.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/sp_silky.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -14734,6 +14743,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/sp\/campaign\/title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4693,
+		"inputAbbreviatedPath": "\/images\/sp\/campaign\/title.png",
+		"outputAbbreviatedPath": "\/images\/sp\/campaign\/title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sp\/company\/title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4930,
+		"inputAbbreviatedPath": "\/images\/sp\/company\/title.png",
+		"outputAbbreviatedPath": "\/images\/sp\/company\/title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sp\/esthetic\/eyelash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117117,
+		"inputAbbreviatedPath": "\/images\/sp\/esthetic\/eyelash.png",
+		"outputAbbreviatedPath": "\/images\/sp\/esthetic\/eyelash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sp\/esthetic\/facial.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129816,
+		"inputAbbreviatedPath": "\/images\/sp\/esthetic\/facial.png",
+		"outputAbbreviatedPath": "\/images\/sp\/esthetic\/facial.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sp\/esthetic\/title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4372,
+		"inputAbbreviatedPath": "\/images\/sp\/esthetic\/title.png",
+		"outputAbbreviatedPath": "\/images\/sp\/esthetic\/title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sp\/faqs\/title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4824,
+		"inputAbbreviatedPath": "\/images\/sp\/faqs\/title.png",
+		"outputAbbreviatedPath": "\/images\/sp\/faqs\/title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/sp\/index\/about_reason.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -14906,6 +14981,39 @@
 		"initialSize": 10234,
 		"inputAbbreviatedPath": "\/images\/sp\/index\/voice.png",
 		"outputAbbreviatedPath": "\/images\/sp\/index\/voice.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sp\/privacy\/title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6403,
+		"inputAbbreviatedPath": "\/images\/sp\/privacy\/title.png",
+		"outputAbbreviatedPath": "\/images\/sp\/privacy\/title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sp\/shops\/title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4559,
+		"inputAbbreviatedPath": "\/images\/sp\/shops\/title.png",
+		"outputAbbreviatedPath": "\/images\/sp\/shops\/title.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sp\/silky\/parts.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74288,
+		"inputAbbreviatedPath": "\/images\/sp\/silky\/parts.png",
+		"outputAbbreviatedPath": "\/images\/sp\/silky\/parts.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15313,6 +15421,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/sp_esthetic.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/sp_esthetic.scss",
+		"outputAbbreviatedPath": "\/css\/sp_esthetic.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/sp_faqs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/sp_faqs.scss",
+		"outputAbbreviatedPath": "\/css\/sp_faqs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/sp_silky.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -15454,6 +15594,29 @@
 		"inputAbbreviatedPath": "\/sitemap\/index.slim",
 		"logicless": 0,
 		"outputAbbreviatedPath": "\/sitemap\/index.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"\/sp\/esthetic\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sp\/esthetic\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sp\/esthetic\/index.slim": {
+		"compileOnly": 0,
+		"fileType": 1024,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sp\/esthetic\/index.slim",
+		"logicless": 0,
+		"outputAbbreviatedPath": "\/sp\/esthetic\/index.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,

@@ -1,0 +1,33 @@
+section.faqs {
+  margin-top: 60px; }
+  section.faqs h1 {
+    background-color: #ecdefa;
+    padding: 20px 20px 14px;
+    margin: 0; }
+  section.faqs img {
+    width: 100%;
+    height: auto; }
+
+section#faqs_silky p,
+section#faqs_esthetic p,
+section#faqs_price p,
+section.faqs p {
+  margin: 0;
+  padding: 20px;
+  color: #796660;
+  background-color: #fff; }
+
+section#faqs_silky h2,
+section#faqs_esthetic h2,
+section#faqs_price h2 {
+  background-color: #ecdefa;
+  padding: 20px 20px 14px;
+  margin: 0;
+  color: #fff;
+  font-size: 18px; }
+section#faqs_silky img,
+section#faqs_esthetic img,
+section#faqs_price img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -6px; }
