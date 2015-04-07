@@ -4,6 +4,11 @@ section.silky_area {
 		background-color: #ecdefa;
 		padding: 20px 20px 14px;
 		margin: 0;
+	}
+	h2 {
+		background-color: #ecdefa;
+		padding: 20px 20px 14px;
+		margin: 0;
 		color: #fff;
 		font-size: 18px;
 	}
@@ -53,13 +58,3 @@ tr.price_title td,
 	padding-left: 10px;
 }
 
-/*　　　　　　　　　　　　　　キャンペーン*/
-section.campaign {
-	img {
-		width: 95%;
-		display: block;
-		margin: 20px auto;
-		border: solid 1px #796660;
-		border-radius: 5px;
-	}
-}

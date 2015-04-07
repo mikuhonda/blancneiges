@@ -1,0 +1,93 @@
+section.esthetic {
+	margin-top: 60px;
+	h1 {
+		background-color: #ecdefa;
+		padding: 20px 20px 14px;
+		margin: 0;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+section#facial,
+section#eyelash,
+section.esthetic {
+p {
+		margin: 0;
+		padding: 20px;
+		color: #796660;
+		background-color: #fff;
+	}
+}
+section#facial,
+section#eyelash {
+	h2 {
+		background-color: #ecdefa;
+		padding: 20px 20px 14px;
+		margin: 0;
+		color: #fff;
+		font-size: 18px;
+	}
+	img {
+		width: 100%;
+		height: auto;
+		margin-bottom: -6px;
+	}
+}
+
+/*　　　　　　　　　　　　     　　　　　　facialprice*/
+.facial_price_area {
+	background-color: #fff;
+	padding: 15px 0 20px;
+	p {
+		width: 100%;
+		text-align: right;
+		font-size: 10px;
+		margin: 0 auto;
+		padding-top: 5px;
+	}
+}
+
+.facial_price_area table,
+.eyerash_price_area table,
+.eyerash_remove_price_area table {
+		width: 100%;
+		margin: 0 auto;
+	td {
+		border-bottom: dotted 2px #f99eae;
+		padding: 10px 0; 
+		font-size: 12px;
+		text-align: center;
+		color: #f99eae;
+		letter-spacing: 0.07em;
+	}
+	td span {
+		font-size: 10px;
+	}
+}
+.price_title td,
+.facial_price_area table td:first-child,
+.eyerash_remove_price_area table td:first-child,
+.eyerash_price_area table td:first-child
+ {
+	color: #88787a!important;
+}
+/*　　　　　　　　　　　　　　　　　　　　eyerash_price*/
+.eyerash_price_area,
+.eyerash_remove_price_area {
+	background-color: #fff;
+	padding: 15px 0 20px;
+}
+.eyerash_remove_price_area {
+	margin-top: -10px;
+	padding-bottom: 30px;
+}
+.eyerash_remove_price_area table tr.price_title td:nth-child(2) {
+	font-size: 12px;
+}
+
+td.none_spacing {
+	letter-spacing: 0!important;
+}
