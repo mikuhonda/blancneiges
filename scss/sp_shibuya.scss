@@ -1,0 +1,45 @@
+section.shops {
+	margin-top: 60px;
+		h1 {
+		background-color: #ecdefa;
+		padding: 20px 20px 14px;
+		margin: 0;
+		img {
+	width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+		}
+	}
+	img {
+		margin-bottom: -6px;
+		overflow: hidden;
+	}
+}
+
+table.shibuya_info {
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: left;
+	padding: 20px 30px;
+
+	td {
+		font-size: 12px;
+		vertical-align: top;
+		list-style: none;
+		padding-bottom: 10px;
+		padding-top: 15px;
+		border-bottom: dotted 1px #f99eae;
+	}
+}
+
+table.shibuya_info tr td:first-child {
+	font-weight: bold;
+ 	padding-right: 20px;
+  width: 48px;
+}
+
+iframe {
+	display: block;
+	margin: 20px auto;
+}

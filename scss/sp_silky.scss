@@ -4,7 +4,19 @@ section.silky_area {
 		background-color: #ecdefa;
 		padding: 20px 20px 14px;
 		margin: 0;
+		img {
+		width: 70%;
+  	height: auto;
+  	margin: 0 auto;
+  	display: block;
+			}
+		}
+	img {
+		margin-bottom: -6px;
+		overflow: hidden;
 	}
+}
+section.silky_area {
 	h2 {
 		background-color: #ecdefa;
 		padding: 20px 20px 14px;

@@ -4,9 +4,14 @@ section.shops {
     background-color: #ecdefa;
     padding: 20px 20px 14px;
     margin: 0; }
+    section.shops h1 img {
+      width: 70%;
+      height: auto;
+      margin: 0 auto;
+      display: block; }
   section.shops img {
-    width: 100%;
-    height: auto; }
+    margin-bottom: -6px;
+    overflow: hidden; }
 
 section#faqs_silky p,
 section#faqs_esthetic p,

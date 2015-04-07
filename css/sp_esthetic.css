@@ -5,9 +5,14 @@ section.esthetic {
     background-color: #ecdefa;
     padding: 20px 20px 14px;
     margin: 0; }
+    section.esthetic h1 img {
+      width: 70%;
+      height: auto;
+      margin: 0 auto;
+      display: block; }
   section.esthetic img {
-    width: 100%;
-    height: auto; }
+    margin-bottom: -6px;
+    overflow: hidden; }
 
 section#facial p,
 section#eyelash p,
