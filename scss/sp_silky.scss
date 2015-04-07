@@ -3,7 +3,9 @@ section.silky_area {
 	h1 {
 		background-color: #ecdefa;
 		padding: 20px 20px 14px;
-		margin: 0
+		margin: 0;
+		color: #fff;
+		font-size: 18px;
 	}
 	img {
 		width: 100%;
@@ -21,6 +23,7 @@ section.silky_area {
 		margin: 0 auto;
 		padding-top: 10px;
 }
+/*　　　　　　　　　　　　　プラン料金表*/
 
 .silky_price_area,
 .silky_all_plan_area {
@@ -34,7 +37,7 @@ section.silky_area {
 	td {
 		border-bottom: dotted 2px #f99eae;
 		padding: 10px 0; 
-		font-size: 14px;
+		font-size: 12px;
 		text-align: center;
 		color: #f99eae;
 		letter-spacing: 0.07em;
@@ -48,4 +51,15 @@ tr.price_title td,
 .silky_price_all_area table td:first-child {
 	color: #88787a!important;
 	padding-left: 10px;
+}
+
+/*　　　　　　　　　　　　　　キャンペーン*/
+section.campaign {
+	img {
+		width: 95%;
+		display: block;
+		margin: 20px auto;
+		border: solid 1px #796660;
+		border-radius: 5px;
+	}
 }
