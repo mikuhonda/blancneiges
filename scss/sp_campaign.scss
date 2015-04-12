@@ -1,0 +1,53 @@
+section.campaign_area {
+	  margin-top: 60px;
+	  color: #796660;
+	  
+	img {
+		width: 80%;
+		display: block;
+  	margin: 0 auto;
+	}
+}
+section.campaign_area {
+	h2 {
+		font-size: 18px;
+		background-color: #ecdefa;
+	  width: 100%;
+	  font-size: 18px;
+	  color: #fff;
+	  padding: 20px 10%;
+	}
+	h3 {
+		font-size: 16px;
+		color: #f99eae;
+		border-left: solid 10px;
+	  border-bottom: solid 2px;
+	  padding-left: 5px;
+	  padding: 10px 20px;
+	}
+	h4 {
+		font-size: 18px;
+		padding: 10px 20px;
+		text-align: center;
+
+	}
+	p {
+		padding: 10px 20px;
+	}
+}
+
+.cam_one,
+.cam_two,
+.cam_three {
+	margin-bottom: 20px;
+}
+.form_button a {
+  display: block;
+  width: 320px;
+  border-bottom: solid 10px #fa6b86;
+  border-radius: 10px;
+  height: 60px;
+  background: url(../images/sp/index/form.png) #f99eae no-repeat;
+  margin: 0 auto;
+  background-position: 50% 50%;
+margin-bottom: 40px;}
