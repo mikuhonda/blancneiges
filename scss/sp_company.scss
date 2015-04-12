@@ -1,0 +1,24 @@
+.company_area {
+	margin-top: 70px;
+	color: #796660;
+	h1 {
+		margin-bottom: -20px;
+		text-align: center;
+		font-size: 18px;
+	}
+}
+.info_image_area {
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	margin-bottom: 20px;
+}
+p,table {
+	padding: 10px;
+}
+tr {
+	width: 100%;
+}
+td:first-child {
+	width: 30%;
+}
