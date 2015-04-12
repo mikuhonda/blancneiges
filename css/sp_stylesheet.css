@@ -30,11 +30,21 @@ section.main {
 
 /*　　　　　　　　　　　　　　　　　　　　　　news*/
 .news {
+  overflow: hidden;
   margin-top: 20px;
-  padding: 4% 12%;
-  height: 150px;
-  width: 100%;
+  height: 200px;
+  padding: 8%;
   background-color: #fffcfd; }
+
+.news ul {
+  width: 95%;
+  margin-top: 10px; }
+  .news ul li a {
+    text-decoration: none;
+    color: #796660; }
+  .news ul li {
+    padding: 8px 0;
+    border-bottom: dotted 2px #f99eae; }
 
 .about {
   text-align: center;
