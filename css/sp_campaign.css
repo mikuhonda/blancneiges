@@ -1,8 +1,15 @@
 section.campaign_area {
   margin-top: 60px;
-  color: #796660; }
+  padding-bottom: 20px;
+  color: #796660;
+  background-color: #fff; }
+  section.campaign_area h1 {
+    background-color: #ecdefa;
+    padding: 20px 20px 14px;
+    margin: 0;
+    text-align: center; }
   section.campaign_area img {
-    width: 80%;
+    width: 100%;
     display: block;
     margin: 0 auto; }
 
@@ -23,7 +30,10 @@ section.campaign_area h3 {
 section.campaign_area h4 {
   font-size: 18px;
   padding: 10px 20px;
-  text-align: center; }
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #ecdefa; }
 section.campaign_area p {
   padding: 10px 20px; }
 

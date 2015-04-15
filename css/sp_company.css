@@ -1,10 +1,11 @@
 .company_area {
-  margin-top: 70px;
+  margin-top: 60px;
   color: #796660; }
   .company_area h1 {
-    margin-bottom: -20px;
-    text-align: center;
-    font-size: 18px; }
+    background-color: #ecdefa;
+    padding: 20px 20px 14px;
+    margin: 0;
+    text-align: center; }
 
 .info_image_area {
   width: 100%;

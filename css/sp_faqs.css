@@ -3,15 +3,13 @@ section.faqs {
   section.faqs h1 {
     background-color: #ecdefa;
     padding: 20px 20px 14px;
-    margin: 0; }
+    margin: 0;
+    text-align: center; }
     section.faqs h1 img {
-      width: 70%;
+      width: 100%;
       height: auto;
       margin: 0 auto;
       display: block; }
-  section.faqs img {
-    margin-bottom: -6px;
-    overflow: hidden; }
 
 section#faqs_silky p,
 section#faqs_esthetic p,

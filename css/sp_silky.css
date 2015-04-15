@@ -4,13 +4,15 @@ section.silky_area {
   section.silky_area h1 {
     background-color: #ecdefa;
     padding: 20px 20px 14px;
-    margin: 0; }
+    margin: 0;
+    text-align: center; }
     section.silky_area h1 img {
-      width: 70%;
+      width: 100%;
       height: auto;
       margin: 0 auto;
       display: block; }
   section.silky_area img {
+    widows: 100%;
     margin-bottom: -6px;
     overflow: hidden; }
 

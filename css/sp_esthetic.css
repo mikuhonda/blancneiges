@@ -4,9 +4,10 @@ section.esthetic {
   section.esthetic h1 {
     background-color: #ecdefa;
     padding: 20px 20px 14px;
-    margin: 0; }
+    margin: 0;
+    text-align: center; }
     section.esthetic h1 img {
-      width: 70%;
+      width: 100%;
       height: auto;
       margin: 0 auto;
       display: block; }

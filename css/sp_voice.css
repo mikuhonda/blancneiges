@@ -3,7 +3,8 @@ section.voice {
   section.voice h1 {
     background-color: #ecdefa;
     padding: 20px 20px 14px;
-    margin: 0; }
+    margin: 0;
+    text-align: center; }
 
 ul {
   background-color: #fff;
@@ -12,6 +13,10 @@ ul {
     font-size: 14px;
     color: #796660;
     padding: 10px; }
+  ul li:nth-child(2) {
+    margin-bottom: 40px; }
+  ul li:last-child {
+    margin-bottom: 40px; }
 
 ul li.parson_image_area {
   text-align: center;
@@ -19,3 +24,42 @@ ul li.parson_image_area {
   padding-bottom: 20px; }
   ul li.parson_image_area img {
     width: 50%; }
+
+#balloon {
+  color: #796660;
+  position: relative;
+  display: inline-block;
+  padding: 30px 20px;
+  height: 230px;
+  line-height: 32px;
+  background: #fafafa;
+  border: 3px solid #ecdefa;
+  z-index: 0; }
+
+#balloon:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  margin-left: -9px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 9px 9px 9px;
+  border-color: transparent transparent #fafafa transparent;
+  z-index: 0; }
+
+#balloon:after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  margin-left: -10px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ecdefa transparent;
+  z-index: -1; }

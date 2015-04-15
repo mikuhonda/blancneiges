@@ -23,7 +23,8 @@ header {
   height: 60px;
   background-color: #fff;
   box-shadow: 5px 5px 20px rgba(181, 181, 181, 0.4);
-  position: fixed; }
+  position: fixed;
+  z-index: 9999; }
 
 .h_logo_area {
   float: left;
