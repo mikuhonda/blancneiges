@@ -1,0 +1,18 @@
+.privacy {
+  background-color: #fff;
+  margin-top: 60px; }
+  .privacy h1 {
+    background-color: #ecdefa;
+    padding: 20px 20px 14px;
+    margin: 0;
+    text-align: center; }
+    .privacy h1 img {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block; }
+  .privacy h2 {
+    font-size: 18px; }
+
+.privacy_content_area {
+  padding: 10px; }

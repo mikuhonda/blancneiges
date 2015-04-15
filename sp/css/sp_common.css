@@ -5,6 +5,9 @@ body, html {
   overflow-x: hidden;
   overflow-y: auto; }
 
+body {
+  font-family: 'ArialMT',Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif; }
+
 ul {
   margin: 0;
   padding: 0; }

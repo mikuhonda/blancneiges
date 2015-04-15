@@ -6,14 +6,15 @@ section.shops {
     margin: 0;
     text-align: center; }
     section.shops h1 img {
-      width: 70%;
+      width: 55%;
       height: auto;
       margin: 0 auto;
       display: block; }
-  section.shops img {
-    width: 100%;
-    margin-bottom: -6px;
-    overflow: hidden; }
+
+.shop_shibuya_area img {
+  width: 100%;
+  margin-bottom: -6px;
+  overflow: hidden; }
 
 table.shibuya_info {
   margin: 0 auto;

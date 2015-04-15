@@ -1,7 +1,23 @@
-.privacy_content_area{
+.privacy{
+	background-color: #fff;
 	margin-top: 60px;
-	padding: 10px;
-	h1,h2 {
+	h1 {
+		background-color: #ecdefa;
+		padding: 20px 20px 14px;
+		margin: 0;
+		text-align: center;
+		img {
+	width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+		}
+	}
+	h2 {
 		font-size: 18px;
 	}
+}
+
+.privacy_content_area {
+	padding: 10px;
 }
