@@ -3,7 +3,7 @@
 .main_image_area {
   width: 100%;
   height: 206px;
-  background: url(../images/sp/index/main.png) no-repeat;
+  background: url(../images/index/main.png) no-repeat;
   background-size: contain; }
 
 section.main {
@@ -13,7 +13,7 @@ section.main {
 .campaign_image_area {
   width: 100%;
   height: 206px;
-  background: url(../images/sp/index/campaign.png) no-repeat;
+  background: url(../images/index/campaign.png) no-repeat;
   background-size: contain;
   height: 110px; }
 
@@ -24,7 +24,7 @@ section.main {
   border-bottom: solid 10px #fa6b86;
   border-radius: 10px;
   height: 60px;
-  background: url(../images/sp/index/form.png) #f99eae no-repeat;
+  background: url(../images/index/form.png) #f99eae no-repeat;
   margin: 0 auto;
   background-position: 50% 50%; }
 
